@@ -40,7 +40,7 @@ function showNotification() {
 }
 
 // ✅ Botão 3 agora redireciona para uma página de terceiros (mantendo o mesmo layout)
-const THIRD_PARTY_URL = 'https://livepix.gg/fga';
+const THIRD_PARTY_URL = 'https://livepix.gg/funquatropatas';
 
 const copyPixButton = document.getElementById('copyPixButton');
 if (copyPixButton) {
@@ -176,6 +176,6 @@ rippleStyle.textContent = `
 document.head.appendChild(rippleStyle);
 
 // Log de boas-vindas no console
-console.log('%c🐾 Fundação Grito Animal - Links 🐾', 'color: #8B6F47; font-size: 20px; font-weight: bold;');
+console.log('%c🐾 Fundação Amor 4 Patas - Links 🐾', 'color: #8B6F47; font-size: 20px; font-weight: bold;');
 console.log('%cObrigado por visitar nossa página!', 'color: #D4A574; font-size: 14px;');
 console.log('%cAjude os animais doando o valor que vier no seu coração via PIX: ' + PIX_KEY, 'color: #2d3748; font-size: 12px;');

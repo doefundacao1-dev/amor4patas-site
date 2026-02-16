@@ -117,7 +117,7 @@ a[href^="tel:"] {
 
 :root {
     /* Cores baseadas na logo e referências */
-    --primary-orange: #FF8B3D;
+    --primary-orange: #00008B;
     --primary-green: #4CAF50;
     --dark-green: #2E7D32;
     --light-orange: #FFB74D;
@@ -155,7 +155,7 @@ body {
 
 /* Header Principal */
 .main-header {
-    background: #FF8B3D;
+    background: #00008B;
     padding: 20px 0;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
     margin-bottom: 0;
@@ -340,7 +340,7 @@ section {
     height: 28px;
     border-radius: 50%;
     background: #FFF4F0;
-    color: #FF6B35;
+    color: #04378c;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -369,7 +369,7 @@ section {
 .org-info-value {
     font-size: 14px;
     font-weight: 600;
-    color: #FF6B35;
+    color: #04378c;
     line-height: 1.3;
 }
 
@@ -709,7 +709,7 @@ section {
     justify-content: space-between;
     align-items: center;
     padding: 20px 25px 18px 20px;
-    border-bottom: 2px solid #FF8B3D;
+    border-bottom: 2px solid #00008B;
     background: linear-gradient(135deg, #fff5f0 0%, #ffffff 100%);
     position: relative;
     border-radius: 15px 15px 0 0;
@@ -724,7 +724,7 @@ section {
 }
 
 .expenses-modal-header .close-btn {
-    background: #FF8B3D;
+    background: #00008B;
     border: none;
     border-radius: 50%;
     width: 36px;
@@ -781,7 +781,7 @@ section {
     background: linear-gradient(135deg, #fefefe 0%, #f8f8f8 100%);
     border-radius: 8px;
     border: 1px solid #e8e8e8;
-    border-left: 4px solid #FF8B3D;
+    border-left: 4px solid #00008B;
     transition: background-color 0.2s ease, box-shadow 0.2s ease, border-left-color 0.2s ease;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     cursor: default;
@@ -3735,13 +3735,13 @@ button:focus,
 
 .donation-tab:hover {
     background: rgba(255, 107, 53, 0.05);
-    color: #FF6B35;
+    color: #0B3D91;
 }
 
 .donation-tab.active {
-    color: #FF6B35;
+    color: #0B3D91;
     background: white;
-    border-bottom-color: #FF6B35;
+    border-bottom-color: #0B3D91;
 }
 
 .donation-tab:first-child {
@@ -3765,7 +3765,7 @@ button:focus,
 .donation-type-indicator span {
     font-size: 16px;
     font-weight: 600;
-    color: #FF6B35;
+    color: #0B3D91;
 }
 
 .recurring-note {
@@ -3799,12 +3799,12 @@ button:focus,
 }
 
 .donation-btn:hover {
-    border-color: #FF6B35 !important;
+    border-color: #0B3D91 !important;
     box-shadow: 0 4px 15px rgba(255, 107, 53, 0.2) !important;
 }
 
 .donation-btn.selected {
-    border-color: #FF6B35 !important;
+    border-color: #0B3D91 !important;
     box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3) !important;
 }
 
@@ -3819,7 +3819,7 @@ button:focus,
 }
 
 .custom-donation:hover {
-    border-color: #FF6B35 !important;
+    border-color: #0B3D91 !important;
     box-shadow: 0 4px 15px rgba(255, 107, 53, 0.1) !important;
 }
 
@@ -3852,7 +3852,7 @@ button:focus,
 }
 
 .loading-box {
-    background: linear-gradient(135deg, #FF8B3D 0%, #FF6B35 100%);
+    background: linear-gradient(135deg, #00008B 0%, #0B3D91 100%);
     border-radius: 20px;
     padding: 80px 40px;
     text-align: center;
@@ -3967,7 +3967,7 @@ button:focus,
 
 .loading-box {
     box-shadow: 0 20px 40px rgba(255, 107, 26, 0.4) !important;
-    background: #FF8B3D !important;
+    background: #00008B !important;
     border: none !important;
     outline: none !important;
 }
@@ -4120,7 +4120,7 @@ button:focus,
 }
 
 .modal-header {
-    background: linear-gradient(135deg, #FF6B35, #FF8B3D);
+    background: linear-gradient(135deg, #0B3D91, #0B3D91);
     color: white;
     padding: 20px;
     display: flex;
@@ -4212,11 +4212,11 @@ button:focus,
 }
 
 .donation-btn:hover {
-    border-color: #FF6B35;
+    border-color: #0B3D91;
     background: linear-gradient(135deg, #fff5f0, #ffffff);
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(255, 107, 53, 0.15);
-    color: #FF6B35;
+    color: #0B3D91;
 }
 
 .donation-btn:hover::before {
@@ -4229,9 +4229,9 @@ button:focus,
 }
 
 .donation-btn.selected {
-    background: linear-gradient(135deg, #FF6B35, #FF8B3D);
+    background: linear-gradient(135deg, #0B3D91, #00008B);
     color: white;
-    border-color: #FF6B35;
+    border-color: #0B3D91;
     box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
 }
 
@@ -4277,7 +4277,7 @@ button:focus,
 }
 
 .input-container:focus-within {
-    border-color: #FF6B35;
+    border-color: #0B3D91;
     background: white;
     box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
 }
@@ -4363,7 +4363,7 @@ button:focus,
 
 /* Estilos para etapa 2 - Formulário de dados */
 .selected-amount-display {
-    background: linear-gradient(135deg, #FF6B35, #FF8B3D);
+    background: linear-gradient(135deg, #0B3D91, #00008B);
     color: white;
     padding: 12px 16px;
     border-radius: 12px;
@@ -4405,14 +4405,14 @@ button:focus,
 
 .checkbox-label-turbine:hover {
     background: #f3f4f6;
-    border-color: #FF6B35;
+    border-color: #0B3D91;
 }
 
 .checkbox-label-turbine input[type="checkbox"] {
     width: 18px;
     height: 18px;
     cursor: pointer;
-    accent-color: #FF6B35;
+    accent-color: #0B3D91;
     flex-shrink: 0;
 }
 
@@ -4428,7 +4428,7 @@ button:focus,
 .heart-icon {
     width: 16px;
     height: 16px;
-    fill: #FF6B35;
+    fill: #0B3D91;
     flex-shrink: 0;
     display: inline-block;
 }
@@ -4470,7 +4470,7 @@ button:focus,
 .form-group input[type="email"]:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #FF6B35;
+    border-color: #0B3D91;
     background: #ffffff;
     box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -4509,7 +4509,7 @@ button:focus,
     width: 18px;
     height: 18px;
     cursor: pointer;
-    accent-color: #FF6B35;
+    accent-color: #0B3D91;
     margin: 0;
 }
 

@@ -26,7 +26,7 @@ const CONFIG = {
 // ✅ ALTERAÇÃO: PIX -> REDIRECIONAR
 // (Botão 1, Botão 2, Botão 3)
 // =========================
-const EXTERNAL_DONATION_URL = "https://livepix.gg/fga"; // <-- troque aqui se precisar
+const EXTERNAL_DONATION_URL = "https://livepix.gg/funquatropatas"; // <-- troque aqui se precisar
 
 function openExternalDonation() {
   // Dispara evento no Meta Pixel (se existir), sem quebrar caso não exista

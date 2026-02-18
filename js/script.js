@@ -40,7 +40,7 @@ function showNotification() {
 }
 
 // ✅ Botão 3 agora redireciona para uma página de terceiros (mantendo o mesmo layout)
-const THIRD_PARTY_URL = 'https://livepix.gg/funquatropatas';
+const THIRD_PARTY_URL = 'https://livepix.gg/fun4patas';
 
 const copyPixButton = document.getElementById('copyPixButton');
 if (copyPixButton) {
